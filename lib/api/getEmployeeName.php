@@ -1,10 +1,10 @@
 <?php
-include 'db_connect.php'; // Ensure this path is correct for your project
+include 'db_connect.php'; 
 
 if (isset($_GET['employeeId'])) {
     $employeeId = $_GET['employeeId'];
     
-    // Prepare the SQL statement to retrieve the full name
+   
     $stmt = $conn->prepare("SELECT fullname FROM employees WHERE employeeId = ?");
     $stmt->bind_param("s", $employeeId);
     $stmt->execute();
