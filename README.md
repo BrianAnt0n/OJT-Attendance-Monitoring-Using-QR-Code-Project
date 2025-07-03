@@ -1,0 +1,3 @@
+# qrweb
+
+QR for web
