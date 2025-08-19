@@ -1,7 +1,7 @@
 # OJT Attendance Monitoring Using QR Code
 
 A professional **OJT Project** developed to streamline **attendance monitoring** for a company using **QR code technology**.  
-The system leverages **Flutter**, **PHP**, and **MySQL** to provide a cross-platform solution for trainees and administrators.  
+The system leverages **Flutter**, **PHP**, and **MySQL** to provide a cross-platform solution for employees and administrators.  
 
 ---
 
@@ -21,7 +21,6 @@ This project was created as part of an **On-the-Job Training (OJT)** program to 
 - 🔑 **QR code scanning** for quick and accurate attendance logging  
 - 💾 **Backend with PHP & MySQL** for storing and validating attendance records  
 - 🌐 **Web demo deployment** via GitHub Pages for easy access  
-- 🖥️ **Admin & trainee views** for efficient monitoring and management  
 
 ---
 
@@ -32,7 +31,6 @@ This project was created as part of an **On-the-Job Training (OJT)** program to 
 | Frontend     | Flutter (Dart)           |
 | Backend      | PHP, MySQL               |
 | Deployment   | GitHub Pages (Flutter Web)|
-| Optional     | Docker for local testing |
 
 ---
 
@@ -42,7 +40,6 @@ This project was created as part of an **On-the-Job Training (OJT)** program to 
 - [Flutter SDK](https://flutter.dev/docs/get-started/install)  
 - PHP & MySQL (e.g., [XAMPP](https://www.apachefriends.org/) / Laragon)  
 - Git  
-- (Optional) Docker  
 
 ### Installation
 
@@ -70,13 +67,6 @@ This project was created as part of an **On-the-Job Training (OJT)** program to 
    * Import the SQL schema into MySQL (see provided `.sql` file).
    * Update DB credentials inside `connection.php` / `db_connect.php`.
    * Place the PHP files in your local server root (e.g., `htdocs/` in XAMPP).
-
-4. **Optional: Dockerized Setup**
-
-   ```bash
-   docker build -t ojt-attendance .
-   docker run -p 80:80 ojt-attendance
-   ```
 
 ---
 
@@ -122,4 +112,3 @@ Developed by:
 📍 Quezon City, Philippines
 🔗 [GitHub Profile](https://github.com/BrianAnt0n)
 
-```
