@@ -50,7 +50,7 @@ This project was created as part of an **On-the-Job Training (OJT)** program to 
    ```bash
    git clone https://github.com/BrianAnt0n/OJT-Attendance-Monitoring-Using-QR-Code-Project.git
    cd OJT-Attendance-Monitoring-Using-QR-Code-Project
-````
+
 
 2. **Run Flutter Web locally**
 
